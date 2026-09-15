@@ -1,0 +1,135 @@
+@charset 'utf-8';
+
+
+
+:root{
+    /*Cores*/
+    --cor00: #f4dff5;
+    --cor01: #d394d3;
+    --cor02: #d090cd;
+    --cor03: #a75ea3;
+    --cor04: #aa3aad;
+    --cor05: #8b008b;
+    --cor06: #69177e;
+    --cor07: #b67fbc;
+    --cor08: #78337e;
+}
+
+header{
+    background-color: var(--cor02);
+    height: 80px;
+    max-width: 850px;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
+   
+}
+
+
+marquee{
+    min-width: 200px;
+    max-width: 750px;
+    font-family: cursive;
+}
+
+
+body{
+background-image: linear-gradient(50deg, var(--cor04)
+,var(--cor03), white);
+background-attachment: fixed;
+font-family: verdana;
+text-align: justify;
+text-indent: 1.5em;
+}
+
+
+h1{
+color: var(--cor05);
+text-align: center;
+}
+
+
+h2{
+color: var(--cor06);
+}
+
+
+main{
+    max-width: 850px;
+    margin: auto;
+    background-color: var(--cor00);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.473);
+}
+
+
+#intro{
+padding: 10px;
+text-align: center;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    background-color: var(--cor08);
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#btn:hover{
+    background-color: var(--cor01);
+}
+
+
+#profissoes{
+    display: block;
+    list-style-type: disc;
+}
+
+
+table{
+    border: 1px solid black;
+}
+
+
+#tableLegend{
+    margin: 2px auto;
+}
+
+
+thead{
+    background-color: var(--cor07);
+}
+
+
+th, td{
+    padding: 15px;
+}
+
+
+form{
+    padding: 5px;
+}
+
+
+input{
+    margin: 5px;
+}
+
+
+fieldset{
+    margin: 20px 0px;
+}
+
+
+.formP{
+    text-align: left;
+    text-decoration: underline;
+}
+

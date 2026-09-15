@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <marquee behavior="alternate" direction="alternate" ><h1>Késsya Maria</h1></marquee>
+    </header>
+    <main>
+        <h1>Minha página</h1>
+        <div id="intro">
+            <p>Olá! Meu nome é <strong>Késsya</strong>, tenho 24 anos e sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> no IFPE. <br>
+             Eu amo animais, principalmente <strong>gatos</strong> <em>(tenho duas fêmeas)</em>.</p>
+            <hr>
+        </div>
+        <div>
+            <h2>Gatinhos</h2>
+            <img src="https://images.pexels.com/photos/17487104/pexels-photo-17487104.jpeg" alt="Gato deitado de costas" width= "280px">
+            <img src="https://images.pexels.com/photos/37228041/pexels-photo-37228041.jpeg" alt="Gato desconfiado caminhando" width= "250px">
+            <img src="https://images.pexels.com/photos/33212065/pexels-photo-33212065.jpeg" alt="Gato deitado de lado" width="250px"> <br>
+            <input type="button" value="Clique Aqui!" class="btn" onclick="clicar()">
+        </div>
+
+
+        <h2>Curiosidades sobre mim</h2>
+
+
+        <ul>
+            <li>Sou bilíngue</li>
+            <li>Gosto de música clássica</li>
+        </ul>
+
+
+        <h2>Link</h2>
+        <p>Aqui está um link para uma música de Vivaldi: <a href="https://www.youtube.com/watch?v=MJ40QQ78Wjs" target="_blank">(Four seasons, spring)</a></p>
+
+
+        <h2>Meus Hobbies</h2>
+
+
+        <p>
+            <pre>
+
+            Karaoke
+            Pintar
+            Tocar teclado
+            </pre>
+        </p>
+
+    <h2>Disciplinas do período</h2>
+    <ul type="square">
+        <li>Desenvolvimento Web I</li>
+        <li>Análise e Projeto de Sistemas</li>
+        <li>Banco de Dados II</li>
+        <li>Inteligência Artificial</li>
+    </ul>
+
+
+    <h2>Profissões</h2>
+    <ol id="profissoes">
+        <li><strong>Desenvolvedora</strong>
+            <ul>
+                <li>Front-End</li>
+                <li>DevOps</li>
+                <li>Ux Designer</li>
+            </ul>
+        </li>
+        <li><strong>Professora de inglês </strong>
+            <ul>
+                <li>Cursinho</li>
+                <li>Escolas de Línguas</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Tabela</h2>
+    <table>
+        <legend id="tableLegend">Notas das Disciplinas</legend>
+        <thead>
+            <tr>
+                <th>disciplina</th>
+                <th>Nota</th>
+                <th>Período</th>
+            </tr>
+           
+        </th>
+        <tbody>
+            <tr>
+                <td>Matemática</td>
+                <td>8.3</td>
+                <td>1</td>
+            </tr>
+
+
+            <tr>
+                <td>Banco de Dados I</td>
+                <td>8.0</td>
+                <td>2</td>
+            </tr>
+
+
+            <tr>
+                <td>Redes de Computadores</td>
+                <td>9.5</td>
+                <td>2</td>
+            </tr>  
+        </tbody>
+    </table>
+
+
+    <form action="#" method="get" oninput="x.value=parseInt(satisfeito.value)">
+        <h2>Currículo</h2>
+        <fieldset>
+                <legend>Dados Pessoais</legend><br>
+           
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Maria Dolores"> <br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="exemplo@email.com"><br>
+
+
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="data"> <br>
+
+
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" placeholder="Ex: Recife"><br>
+
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="ac">ACRE</option>
+                <option value="al">ALAGOAS</option>
+                <option value="ap">AMAPÁ</option>
+                <option value="am">AMAZONAS</option>
+                <option value="ba">BAHIA</option>
+                <option value="ac">CEARÁ</option>
+                <option value="df">DISTRITO FEDERAL</option>
+                <option value="es">ESPÍRITO SANTO</option>
+                <option value="go">GOIÁS</option>
+                <option value="ma">MARANHÃO</option>
+                <option value="mt">MATO GROSSO</option>
+                <option value="ms">MATO GROSSO DO SUL</option>
+                <option value="mg">MINAS GERAIS</option>
+                <option value="pa">PARÁ</option>
+                <option value="pb">PARAÍBA</option>
+                <option value="pr">PARANÁ</option>
+                <option value="pe" selected>PERNAMBUCO</option>
+                <option value="pi">PIAUÍ</option>
+                <option value="rj">RIO DE JANEIRO</option>
+                <option value="rn">RIO GRANDE DO NORTE</option>
+                <option value="rs">RIO GRANDE DO SUL</option>
+                <option value="ro">RONDÔNIA</option>
+                <option value="rr">RORAIMA</option>
+                <option value="sc">SANTA CATARINA</option>
+                <option value="sp">SÃO PAULO</option>
+                <option value="se">SERGIPE</option>
+                <option value="to">TOCANTINS</option>
+
+
+            </select><br>
+
+
+            <label for="sexo">Sexo:</label>
+           
+            <input type="radio" id="masc" name="sexo" value="Masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" id="fem" name="sexo" value="Fem">
+            <label for="fem">Feminino</label>
+            <input type="radio" id="outro" name="sexo" value="Outro">
+            <label for="outro">Outro</label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Habilidades Técnicas</legend>
+            <p class="formP">Marque as linguagens de programação que você tem experiência </p>
+            <label for="python">Python</label>
+            <input type="checkbox" id="python"><br>
+
+
+            <label for="java">Java</label>
+            <input type="checkbox" id="java"><br>
+
+
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="javascript"><br>
+
+
+            <label for="c++">C++</label>
+            <input type="checkbox" id="C++"><br>
+
+
+            <label for="c">C</label>
+            <input type="checkbox" id="c"><br>
+
+
+            <label for="c#">C#</label>
+            <input type="checkbox" id="c#"><br>
+
+
+            <label for="assembly">Assembly</label>
+            <input type="checkbox" id="assembly"><br>
+
+            <label for="go">Go</label>
+            <input type="checkbox" id="go"><br>
+
+
+            <label for="nenhuma">Nenhuma dessas</label>
+            <input type="checkbox" id="nenhuma"><br>
+
+
+            <p class="formP">Qual é o seu tempo de experiência?</p>
+
+
+            <label for="1">1 ano</label>
+            <input type="radio" id="1" name="exp" checked><br>
+
+
+            <label for="s">2 anos</label>
+            <input type="radio" id="2" name="exp"><br>
+
+
+            <label for="3">3 anos ou mais</label>
+            <input type="radio" id="3+" name="exp"><br>
+
+            <label for="nenhum">Não tenho experiência</label>
+            <input type="radio" id="nenhum" name="exp"><br>
+
+
+            <p class="formP">Selecione a sua área de atuação</p>
+
+
+            <label for="list">Área de atuação:</label>
+            <input type="text" list="areaDeAtuacao" id="list">
+            <datalist id="areaDeAtuacao">
+                <option value="devFront">Desenvolvedor Front-End</option>
+                <option value="devback">Desenvolvedor Back-End</option>
+                <option value="fullStack">Desenvolvedor FullStack</option>
+                <option value="UI/Ux">UI / UX</option>
+                <option value="infra">Infraestrutura</option>
+                <option value="redes">Redes</option>
+                <option value="bd">Banco de Dados</option>
+                <option value="engSoftware">Engenharia de Software</option>
+
+                <option value="engRequisitos">Engenharia de Requisitos</option>
+
+                <option value="outro">Outro</option>
+            </datalist>
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Educação</legend>
+
+
+            <p class="formP">Qual é a sua instituição de ensino?</p>
+            <select name="education" id="education">
+                <option value="ieso">IESO</option>
+                <option value="ifpe" selected>IFPE</option>
+                <option value="ufpe">UFPE</option>
+                <option value="ufrpe">UFRPE</option>
+                <option value="upe">UPE</option>
+                <option value="unibra">UNIBRA</option>
+                <option value="cesar">CESAR SCHOOL</option>
+                <option value="uninassau">UNINASSAU</option>
+                <option value="outra">OUTRA</option>
+            </select>
+
+
+            <p class="formP">Descreva sua trajetória estudantil:</p><br>
+            <textarea name="txtarea" id="txtarea" rows="12" cols="40">
+            </textarea>
+
+
+            <p class="formP">Como você considera o seu nível de conhecimento na área de TI?</p>
+            <label for="satisfeito">0% Ruim ----------- 100% ótimo</label> <br>
+            <input type="range" id="satisfeito" value="25"> <br>
+
+
+            Porcentagem: <output id="x" for="satisfeito"></output>%
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Dados de Login</legend>
+            <label for="password">Senha:</label>
+            <input type="password" id="password">
+        </fieldset>
+
+
+        <input type="submit" class="btn" value="Enviar">
+        <input type="reset" class="btn" value="Limpar">
+    </form>
+
+
+   
+    </main>
+    <script>
+        function clicar(){
+            window.alert('Eu já disse que amo gatos?')
+        }
+    </script>
+</body>
+</html>
+
