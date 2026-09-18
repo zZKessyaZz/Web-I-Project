@@ -71,13 +71,14 @@ text-align: center;
 }
 
 .btn{
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: fit-content;
     background-color: var(--cor08);
+    padding: 8px;
     border-radius: 20px;
     margin: 20px;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
